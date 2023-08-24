@@ -1,0 +1,27 @@
+table, td, th{
+    border: solid 1px black;
+    border-collapse: collapse;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+td{
+   width: 150px;
+}
+th{
+    height: 50px;
+    background-color: rgb(176, 140, 190);
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even) {
+    background-color: #e1c8f0
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+tr:hover {
+
+    background-color: #1225355e;
+
+}
